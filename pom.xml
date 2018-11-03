@@ -8,7 +8,7 @@
         <version>2.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>zhacker-sample-spu</artifactId>
+    <artifactId>zhacker-sample-ddd-spu</artifactId>
     <modelVersion>4.0.0</modelVersion>
 
     <dependencies>
