@@ -32,21 +32,18 @@ git clone https://github.com/fancyyawn/zhacker-framework.git
 mvn clean install -Dmaven.test.skip
 ```
 
-2. 本地启动应用
+2. 下载本项目并在本地启动应用
 
 ``` 
+git clone https://github.com/fancyyawn/zhack-sample-ddd-spu.git
 mvn spring-boot:run
 ```
 
-3. 通过swagger界面操作接口
-
-[swagger-ui](http://localhost:9001/swagger-ui.html)
+3. 通过swagger界面操作接口 [swagger-ui](http://localhost:9001/swagger-ui.html)
 
 ![ddd-spu-api](doc/ddd-spu-api.png)
 
-4. 通过h2-console查看数据
-
-[h2-console](http://localhost:9001/h2-console)
+4. 通过h2-console查看数据 [h2-console](http://localhost:9001/h2-console)
 
 * 地址：jdbc:h2:/tmp/testdb
 * 用户名：sa
