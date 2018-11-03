@@ -1,0 +1,51 @@
+# maven ignore
+target/
+bint/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+out/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+bin
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+.pmd
+*.pdb
+.checkstyle
+.eclipse-pmd
+logs/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+*/disconf/download
+disconf/
+.metadata/
+
+# gitbook
+doc/_book/*
+output/*
+
+*.stackdump
+*.versionsBackup
