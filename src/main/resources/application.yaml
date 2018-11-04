@@ -14,6 +14,9 @@ spring:
     continue-on-error: false
     schema: classpath:db/schema.sql
     initialization-mode: always
+  cloud:
+    refresh:
+      refreshable: none
 
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
@@ -28,7 +31,7 @@ management:
       exposure:
         include: '*'
 
-# eureka:
-#   client:
-#     service-url:
-#       defaultZone: http://localhost:8761/eureka/
+eureka:
+ client:
+   service-url:
+     defaultZone: http://localhost:8761/eureka/
